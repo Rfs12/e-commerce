@@ -1,0 +1,101 @@
+
+.button:hover{
+  border-radius: 1;
+  border-color: #DB4646;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button{
+  position: relative;
+  background-color: #DB4646;  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5vh;
+  padding-left:10px;
+
+}
+hr{
+  border-color: white;
+  padding: 0;
+  margin-top: 0;
+}
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+/* Base styles */
+.button, .form-control {
+  font-size: 13px; /* Base font size for general use */
+  height: 5vw; /* Base height */
+}
+.icon {
+  font-size: 1.5em; /* Icon size relative to button text */
+  margin-right: 8px; /* Space between icon and text */
+  
+}
+/* For extra small devices (phones in portrait mode) */
+@media (max-width: 576px) {
+  
+  .button, .form-control,.icon {
+    font-size: 14px; /* Smaller font size for very small screens */
+    height: 10vw; /* Adjusted height for better touch targets */
+    font-size: 1.3em; /* Icon size relative to button text */
+    padding-top:0.1em;
+  }
+}
+
+/* For small devices (phones in landscape mode and tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  
+  .button, .form-control,.icon {
+    font-size: 16px; /* Slightly larger font size */
+    height: 7vw; /* Adjusted height for larger screens */
+    font-size: 1.3em; /* Icon size relative to button text */
+    padding-top:0.3em;
+
+  }
+}
+
+/* For medium to large devices (tablets and desktops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+  .button, .form-control,.icon {
+    font-size: 14px; /* Larger font size for more readable text */
+    height: 5vw; /* Adjusted height for better proportionality */
+    font-size: 1.3em; /* Icon size relative to button text */
+    padding-top:0.3em;
+
+  }
+}
+
+/* For extra large devices (large desktops and monitors) */
+@media (min-width: 1025px) {
+  body{
+    overflow-x: hidden;
+  }
+  .button, .form-control,.icon {
+    height: 4vw; /* Adjusted height for large screens */
+    font-size: 1.3em; /* Icon size relative to button text */
+    padding-top:0.4em;
+  }
+}
+.cart_btn{
+  margin:30vw;
+  float:right;
+  padding:40px;
+}
+
+  body{
+    background-color: #F1F4F5;
+    object-fit: cover;
+    overflow-x: hidden;
+  }

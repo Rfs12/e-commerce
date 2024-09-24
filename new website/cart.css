@@ -1,0 +1,67 @@
+/* Cart Page Styles */
+body {
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.8;
+    background-color: #C0C0C0;
+    margin: 0;
+    /* Adjusted for responsiveness */
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding:1vw;
+}
+
+.product-card,
+.cart-item {
+  
+    border: 1px solid #ddd;
+    margin-bottom: 2vw; /* Adjusted for responsiveness */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.item {
+    padding-bottom: 1vw;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin-bottom: 2vw;
+}
+
+.item .name {
+    flex-basis: 5%; /* Adjust width for the item name */
+    word-wrap: break-word; /* Break long words */
+}
+
+.product-card img,
+.cart-item img {
+    width: 20vw; /* Adjusted for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0.5vw; /* Adjusted for responsiveness */
+}
+
+.cart-item div {
+    flex: 2;
+}
+
+.update-form,
+.delete-form {
+    margin-left: 3vw; /* Adjusted for responsiveness */
+}
+
+
+/* Subtotal and Checkout Styles */
+.subtotal {
+ /* Adjusted for responsiveness */
+    font-weight: bold;
+    text-align: right;
+    margin-top: 2vw; /* Adjusted for responsiveness */
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+}

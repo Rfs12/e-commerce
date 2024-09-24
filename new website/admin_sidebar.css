@@ -1,0 +1,81 @@
+/* The side navigation menu */
+body{
+    background-color: #F1F4F5;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px; /* Fixed width for larger screens */
+    background-color: #848484;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    color: white;
+    background-color: #DB4646;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px; /* Margin to accommodate the sidebar */
+    padding: 1px 16px;
+    height: 1000px; /* Example height; adjust as needed */
+}
+
+
+/* On screens that are less than 700px wide */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 500px;
+       /* Allow content to dictate height */
+        position: relative; /* Adjust position for smaller screens */
+    }
+    .sidebar a {
+        text-align: left; /* Center align links for very small screens */
+        float: none; /* Remove float for vertical display */  
+    }
+    img{
+        height: 10vh;
+        width: 18vh;
+    }
+    .navbar-toggler{
+        border-color: white;
+        float: right;
+        margin-top:5vw;
+        margin-right: 5vw;
+    }
+    div.content {
+        margin-left: 0;
+         /* Remove margin for full-width content */
+    }
+    .form{
+        width: auto;
+    }
+    
+   .input{
+    width: 250px;
+   }
+  
+   
+}
+.navbar-toggler-icon {
+    display: none; /* Hide the default icon if you use a custom icon */
+}
+
+.navbar-toggler .fas {
+    font-size: 24px; /* Adjust icon size */
+    color: white; /* Change the color of the icon */
+}
+/* On screens that are less than 400px wide */
+
+
+  
