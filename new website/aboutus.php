@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card">
-                        <img src="l.png" class="card-img-top" alt="Our Team and Expertise">
+                        <img src="about1.jpg" class="card-img-top" alt="Our Team and Expertise">
                         <div class="card-body">
                             <h5 class="card-title">Our Team and Expertise</h5>
                             <p class="card-text">Our team at Oshein Trading Pvt. Ltd. is composed of experienced professionals who are passionate about the auto parts industry. From our procurement specialists who meticulously select parts in Japan to our knowledgeable sales and customer service teams in Sri Lanka, each member plays a vital role in ensuring our operations run smoothly. Our local expertise allows us to understand and meet the specific needs of Sri Lankan vehicle owners. We are committed to continuous improvement and staying updated with the latest industry trends.</p>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card">
-                        <img src="j.png" class="card-img-top" alt="Our Mission and Values">
+                        <img src="about3.jpg" class="card-img-top" alt="Our Mission and Values">
                         <div class="card-body">
                             <h5 class="card-title">Our Mission and Values</h5>
                             <p class="card-text">At Oshein Trading Pvt. Ltd., our mission is to be the trusted local partner for all your auto parts needs in Sri Lanka. We are dedicated to providing top-quality parts that enhance the performance and longevity of your vehicles.</p>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card">
-                        <img src="logo.png" class="card-img-top" alt="Our Expertise">
+                        <img src="about2.jpg" class="card-img-top" alt="Our Expertise">
                         <div class="card-body">
                             <h5 class="card-title">Our Expertise</h5>
                             <p class="card-text">We pride ourselves on our expertise in the auto parts industry. Our team works tirelessly to source the highest quality parts to ensure customer satisfaction. We believe in providing value and trust to our customers through our products and services.</p>

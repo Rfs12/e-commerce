@@ -4,7 +4,8 @@ body {
 .card{
   margin: 10px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.2) inset;
-  width: 17rem; height:26.5rem; 
+  width: 18rem; height:27rem; 
+
 }
 .card img{
   max-width: 100vw;

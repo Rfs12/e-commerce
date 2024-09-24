@@ -161,38 +161,31 @@ include("connect.php");
   </div>
   </div>
 </div>
-  
-<!-- Font Awesome -->
+<!-- Managers -->
+<div class="container_marketing" style="text-align:center;">
+  <!-- Three columns of text below the carousel -->
+  <div class="row justify-content-center">
+    
+    <div class="col-lg-4 text-center">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Manager 1" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777"/>
+        <image x="0" y="0" width="160" height="140" href="manger1.jpg"preserveAspectRatio="xMidYMid slice"/>
+      </svg>
+      <h2>John Doe</h2>
+      <p>Manager of Operations. With over 10 years in the auto parts industry, John ensures smooth operations and excellent customer service.</p>
+    </div><!-- /.col-lg-4 -->
+    
+    <div class="col-lg-4 text-center">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Manager 2" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777"/>
+        <image x="0" y="0" width="140" height="170" href="manger2.jpg" preserveAspectRatio="xMidYMid slice"/>
+      </svg>
+      <h2>Jane Smith</h2>
+      <p>Sales Manager. Jane specializes in customer relations and is passionate about helping customers find the right parts for their vehicles.</p>
+    </div><!-- /.col-lg-4 -->
 
-    <!--managers-->
-    <div class="container_marketing" style="text-align:center;">
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            <image x="0" y="0" width="140" height="140" href="IMG_0770.jpg" preserveAspectRatio="xMidYMid slice"/>
-          </svg>
-          <h2>Heading</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            <image x="0" y="0" width="140" height="140" href="IMG_0770.jpg" preserveAspectRatio="xMidYMid slice"/>
-          </svg>
-  
-          <h2>Heading</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            <image x="0" y="0" width="140" height="140" href="IMG_0770.jpg" preserveAspectRatio="xMidYMid slice"/>
-          </svg>
-  
-          <h2>Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-        </div><!-- /.col-lg-4 -->
-      </div>
-      </div>
+  </div>
+</div>
 
 
 <!--search option with show products--> 

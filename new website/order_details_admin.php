@@ -1,7 +1,6 @@
 <?php include('connect.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-<>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Manage Orders</title>
@@ -90,8 +89,8 @@
             }
 
             // Display a button to go back to the customer list
-            echo "<a href='admin_manage_orders.php' class='btn btn-primary'>Back to Customer List</a>";
-            echo "<td><a href='mark_delivered.php?id=" . $customer_data['id'] . "' class='btn button'>Mark as Delivered</a></td>";
+            echo "<a href='admin_manage_orders.php' class='btn button' >Back to Customer List</a>";
+            echo "<td><a href='mark_delivered.php?id=" . $customer_data['id'] . "' class='btn button'style='margin-left:2rem;'>Mark as Delivered</a></td>";
 
         } else {
             echo "<p>No customer found with ID: " . htmlspecialchars($customer_id) . "</p>";
